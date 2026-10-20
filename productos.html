@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos | Ferretería 2 Hermanos</title>
+    <meta name="description" content="Explora nuestro catálogo de materiales de construcción, herramientas, pintura, plomería y electricidad en Langue, Valle.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Ferretería 2 Hermanos</a>
+            <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
+            <nav class="nav-links" aria-label="Navegación principal">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="productos.html" aria-current="page" class="active">Productos</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contáctanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido-principal">
+        <section class="container fade-in">
+            <h1 style="text-align: center; margin-bottom: 2rem; font-size: 2.5rem;">Nuestro Catálogo</h1>
+            
+            <!-- Filtros -->
+            <div class="filtros">
+                <button class="btn-filtro activo" data-categoria="todos">Todos</button>
+                <button class="btn-filtro" data-categoria="construccion">Obra Gris</button>
+                <button class="btn-filtro" data-categoria="herramientas">Herramientas</button>
+                <button class="btn-filtro" data-categoria="pintura">Pintura y Acabados</button>
+                <button class="btn-filtro" data-categoria="plomeria">Plomería</button>
+                <button class="btn-filtro" data-categoria="electricidad">Electricidad</button>
+            </div>
+
+            <div class="grid-tarjetas" id="catalogo-productos">
+                
+                <!-- ==========================================
+                     CONSTRUCCIÓN / OBRA GRIS (14 productos)
+                     ========================================== -->
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/carreta-azul.png" alt="Carreta azul" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Carreta Azul</h3>
+                        <p>Carretilla resistente para carga pesada y trabajos de albañilería.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20la%20Carreta%20Azul." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/varilla-metal.png" alt="Varilla de metal" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Varilla de Metal</h3>
+                        <p>Varilla corrugada indispensable para refuerzos estructurales.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Varilla%20de%20Metal." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/laminas-zinc.png" alt="Láminas de zinc" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Láminas de Zinc</h3>
+                        <p>Lámina de zinc corrugada, duradera e ideal para techos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Láminas%20de%20Zinc." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/canaleta-metal.png" alt="Canaleta de metal" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Canaleta de Metal</h3>
+                        <p>Perfilería de canaleta metálica para soporte de estructuras.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Canaleta%20de%20Metal." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/cemento.png" alt="Cemento" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Cemento</h3>
+                        <p>Cemento de alta calidad para estructuras sólidas y obra gris.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cemento." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/separador-ceramica.png" alt="Separador de cerámica" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Separador de Cerámica</h3>
+                        <p>Crucetas niveladoras para la instalación perfecta de baldosas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Separadores%20de%20Cerámica." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/rollo-alambre.png" alt="Rollo de alambre" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Rollo de Alambre</h3>
+                        <p>Alambre de amarre para armaduras y refuerzos de hierro.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Rollo%20de%20Alambre." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/clavos-acero.png" alt="Clavos de acero" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Clavos de Acero</h3>
+                        <p>Clavos resistentes para concreto, madera y estructuras fijas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Clavos%20de%20Acero." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/madera.png" alt="Madera" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Madera</h3>
+                        <p>Madera aserrada útil para encofrados, techos y marcos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Madera." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/rollo-lámina-galvanizada.png" alt="Rollo de lámina galvanizada" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Rollo Lámina Galvanizada</h3>
+                        <p>Lámina lisa anticorrosiva para hojalatería y protecciones.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Rollo%20de%20Lámina%20Galvanizada." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/malla-hexagonal-acero.png" alt="Malla hexagonal de acero" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Malla Hexagonal</h3>
+                        <p>Malla de acero para cerramientos o refuerzos de repello.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Malla%20Hexagonal." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/malla-ciclón-pvc.png" alt="Malla ciclón pvc" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Malla Ciclón PVC</h3>
+                        <p>Malla metálica forrada en PVC verde para cercos duraderos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Malla%20Ciclón." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/nailon-negro.png" alt="Nailon negro" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Nailon Negro</h3>
+                        <p>Plástico protector resistente para aislar humedad o cubrir materiales.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Nailon%20Negro." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="construccion">
+                    <div class="producto-imagen"><img src="img/banda-amarre.png" alt="Banda de amarre" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Construcción</span>
+                        <h3>Banda de Amarre</h3>
+                        <p>Banda tensora o cincha de amarre para asegurar cargas pesadas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Banda%20de%20Amarre." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+
+                <!-- ==========================================
+                     HERRAMIENTAS (49 productos únicos)
+                     ========================================== -->
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/barretón-escopio.png" alt="Barretón escopio" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Barretón (Escopio)</h3>
+                        <p>Herramienta robusta ideal para quebrar terreno duro y rocoso.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Barretón." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/tridente-cultivador.png" alt="Tridente cultivador" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Tridente Cultivador</h3>
+                        <p>Herramienta agrícola para preparar, aflojar y airear la tierra.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Tridente%20Cultivador." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/pistola-metalica-riego.png" alt="Pistola de riego" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Pistola Metálica Riego</h3>
+                        <p>Pistola aspersora para manguera, muy resistente a impactos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Pistola%20de%20Riego." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/cinta-reflectiva.png" alt="Cinta reflectiva" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Seguridad</span>
+                        <h3>Cinta Reflectiva</h3>
+                        <p>Cinta autoadhesiva de alta visibilidad para señalización nocturna.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cinta%20Reflectiva." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/careta-soldar.png" alt="Careta para soldar" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Seguridad Industrial</span>
+                        <h3>Careta para Soldar</h3>
+                        <p>Máscara de protección visual y facial para trabajos de soldadura.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Careta%20para%20Soldar." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/tenaza-frontal.png" alt="Tenaza frontal" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Tenaza Frontal</h3>
+                        <p>Tenaza de agarre fuerte, indispensable para sacar clavos o amarrar.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Tenaza%20Frontal." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/serrucho-mano.png" alt="Serrucho de mano" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Serrucho de Mano</h3>
+                        <p>Hoja de acero templado con filo duradero para cortes en madera.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Serrucho%20de%20Mano." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/nivel-burbujas.png" alt="Nivel de burbujas" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Nivel de Burbujas</h3>
+                        <p>Nivel clásico de mano para verificar alineación de superficies.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Nivel%20de%20Burbujas." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/juego-dado.png" alt="Juego de dados" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Juego de Dados</h3>
+                        <p>Kit completo de dados y ratch para trabajos de mecánica y ajuste.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Juego%20de%20Dados." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/broca-metal.png" alt="Broca para metal" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Broca para Metal</h3>
+                        <p>Brocas de acero rápido, resistentes al calor y fricción extrema.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Broca%20para%20Metal." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/rollo-sintetico.png" alt="Rollo sintético" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Rollo Sintético</h3>
+                        <p>Cuerda o cordel sintético muy duradero para realizar amarres y guías.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Rollo%20Sintético." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/machete-colima.png" alt="Machete colima" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas Agrícolas</span>
+                        <h3>Machete Colima</h3>
+                        <p>Machete fuerte y balanceado, excelente para labores de desmonte.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Machete%20Colima." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/cinta-precaucion.png" alt="Cinta precaucion" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Seguridad</span>
+                        <h3>Cinta de Precaución</h3>
+                        <p>Cinta plástica amarilla para delimitar y acordonar áreas de peligro.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cinta%20de%20Precaución." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/jaladeras-puertas.png" alt="Jaladeras para puertas" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Cerrajería</span>
+                        <h3>Jaladeras para Puertas</h3>
+                        <p>Manijas y agarraderas estéticas y de gran durabilidad para puertas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Jaladeras." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/conector-grapa.png" alt="Conector grapa" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Fijación</span>
+                        <h3>Conector Grapa</h3>
+                        <p>Conectores tipo grapa metálicos para asegurar o fijar empalmes.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Conector%20Grapa." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/pomo-chapa.png" alt="Pomo chapa" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Cerrajería</span>
+                        <h3>Pomo / Chapa</h3>
+                        <p>Cerradura tradicional de pomo con llave, especial para interiores.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Chapa." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/maletin-organizador.png" alt="Maletín organizador" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Maletín Organizador</h3>
+                        <p>Caja con divisiones para mantener herramientas y piezas en orden.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Maletín%20Organizador." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/escalera-extension.png" alt="Escalera extensión" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Escalera Extensión</h3>
+                        <p>Escalera de aluminio que se alarga para alcanzar techos y áreas altas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Escalera%20de%20Extensión." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/perno-hexagonal.png" alt="Perno hexagonal" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Fijación</span>
+                        <h3>Perno Hexagonal</h3>
+                        <p>Tornillería gruesa de cabeza hexagonal para ensambles mecánicos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Perno%20Hexagonal." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/bascula-mecánica-mesa.png" alt="Báscula mecánica" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Báscula Mecánica</h3>
+                        <p>Báscula de mesa de alta resistencia para pesar materiales a granel.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Báscula." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/rueda-fija.png" alt="Rueda fija" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Rueda Fija</h3>
+                        <p>Rodaje metálico con llanta de goma para dar movilidad a bases pesadas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Ruedas." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/bisagra-libro.png" alt="Bisagra libro" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Cerrajería</span>
+                        <h3>Bisagra de Libro</h3>
+                        <p>Bisagras tradicionales infalibles para puertas y ventanas de madera.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Bisagra." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/lentes-soldar.png" alt="Lentes de soldar" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Seguridad</span>
+                        <h3>Lentes para Soldar</h3>
+                        <p>Lentes con filtro oscuro que protegen los ojos al usar maquinaria de soldar.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Lentes%20para%20Soldar." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/pinza-electrodo.png" alt="Pinza electrodo" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Pinza Porta Electrodo</h3>
+                        <p>Herramienta o tenaza para asegurar electrodos de forma firme al soldar.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Pinza%20Porta%20Electrodo." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/sierra-circular-electrica.png" alt="Sierra circular" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas Eléctricas</span>
+                        <h3>Sierra Circular Eléctrica</h3>
+                        <p>Potente herramienta para hacer cortes rápidos y exactos en tableros de madera.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Sierra%20Circular." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/lentes-seguridad.png" alt="Lentes de seguridad" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Seguridad</span>
+                        <h3>Lentes de Seguridad</h3>
+                        <p>Gafas transparentes que protegen de polvo, aserrín o esquirlas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Lentes%20de%20Seguridad." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/candado-hierro.png" alt="Candado de hierro" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Cerrajería</span>
+                        <h3>Candado de Hierro</h3>
+                        <p>Candado Fanal, pesado y de gran durabilidad para máxima seguridad.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Candados." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/mensula.png" alt="Mensula" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Fijación</span>
+                        <h3>Ménsula (Pie de Amigo)</h3>
+                        <p>Escuadra de soporte de acero para la instalación de repisas en la pared.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Ménsula." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/pasador-pernos.png" alt="Pasador" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Cerrajería</span>
+                        <h3>Pasador de Pernos</h3>
+                        <p>Cerrojo de pasador corredizo, ideal para trancar puertas desde dentro.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Pasador." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/cinta-metrica.png" alt="Cinta metrica" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Medición</span>
+                        <h3>Cinta Métrica</h3>
+                        <p>Flexómetro o metro retráctil de bolsillo, indispensable para cualquier trabajador.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cinta%20Métrica." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/broca-plana.png" alt="Broca plana" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Accesorios</span>
+                        <h3>Broca Plana</h3>
+                        <p>Broca de paleta para taladrar agujeros circulares anchos en madera.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Broca%20Plana." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/cuchilla-curva.png" alt="Cuchilla curva" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Cuchilla Curva</h3>
+                        <p>Herramienta de hoja encorvada muy útil para cortes específicos o poda ligera.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cuchilla%20Curva." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/cincel-madera.png" alt="Cincel madera" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas Manuales</span>
+                        <h3>Cincel para Madera</h3>
+                        <p>Herramienta con hoja gruesa y robusta para desbaste pesado, tallado y soportar impactos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cincel." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/remachadora-manual.png" alt="Remachadora manual" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas Manuales</span>
+                        <h3>Remachadora Manual</h3>
+                        <p>Herramienta mecánica para unir láminas metálicas de forma permanente.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Remachadora." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/cepillo-alambre.png" alt="Cepillo de alambre" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Limpieza Industrial</span>
+                        <h3>Cepillo de Alambre</h3>
+                        <p>Cerdas de acero duro para retirar óxido, escoria de soldadura o pintura.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cepillo%20de%20Alambre." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/formón-madera.png" alt="Formón" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Carpintería</span>
+                        <h3>Formón de Madera</h3>
+                        <p>Herramienta con hoja plana y delgada para cortes limpios, rebajes y ajustes precisos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Formón." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/disco-sierra-stanley.png" alt="Disco Stanley" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Accesorios</span>
+                        <h3>Disco Sierra Stanley</h3>
+                        <p>Disco de corte de dientes afilados de marca reconocida y alta duración.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Disco%20Sierra%20Stanley." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/disco-sierra-ingco.png" alt="Disco Ingco" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Accesorios</span>
+                        <h3>Disco Sierra Ingco</h3>
+                        <p>Disco económico y resistente para sierras circulares marca Ingco.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Disco%20Sierra%20Ingco." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/alicate-presion.png" alt="Alicate presion" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas Manuales</span>
+                        <h3>Alicate de Presión</h3>
+                        <p>Pinza con mecanismo de ajuste para sujetar o extraer piezas fuertemente.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Alicate%20de%20Presión." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/set-destornilladores.png" alt="Set destornilladores" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas Manuales</span>
+                        <h3>Set Destornilladores</h3>
+                        <p>Juego práctico con destornilladores de punta plana y de cruz (Phillips).</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Set%20de%20Destornilladores." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/alicate-combinado.png" alt="Alicate Combinado" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas Manuales</span>
+                        <h3>Alicate Combinado</h3>
+                        <p>Herramienta manual multiusos sirve para sujetar, doblar y cortar cables o piezas..</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Alicate%20Pico%20de%20Loro." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/tijera-lamina.png" alt="Tijera lamina" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas Manuales</span>
+                        <h3>Tijera de Lámina</h3>
+                        <p>Tijera de aviación con filo extremo para hacer cortes directos en metal.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Tijera%20de%20Lámina." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/tijera-podar.png" alt="Tijera de podar" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas de Jardín</span>
+                        <h3>Tijera de Podar</h3>
+                        <p>Tijera con resorte, perfecta para dar mantenimiento a las plantas de tu hogar.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Tijera%20de%20Podar." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/brocas-mixtas.png" alt="Brocas mixtas" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Accesorios</span>
+                        <h3>Set Brocas Mixtas</h3>
+                        <p>Estuche con diferentes brocas para concreto, madera y metal.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Brocas%20Mixtas." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/masking-tape.png" alt="Masking Tape" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Seguridad</span>
+                        <h3>Rollo Masking Tape</h3>
+                        <p>Cinta adhesiva de papel que se usa para pintar, proteger superficies y hacer manualidades.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cinta%20Plástica." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/tenaza-armador.png" alt="Tenaza armador" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas Manuales</span>
+                        <h3>Tenaza de Armador</h3>
+                        <p>Tenaza de mangos largos que da más palanca al amarrar acero corrugado.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Tenaza%20de%20Armador." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/destornillador-phillips.png" alt="Destornillador phillips" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas Manuales</span>
+                        <h3>Destornillador Phillips</h3>
+                        <p>Destornillador de estrías (cruz) para todo tipo de tornillería común.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Destornillador%20Phillips." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/escuadra-combinada.png" alt="Escuadra" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Medición</span>
+                        <h3>Escuadra Combinada</h3>
+                        <p>Herramienta con regla y burbuja para verificar ángulos de 90° y 45°.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Escuadra." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/rollo-neopreno.png" alt="Rollo neopreno" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Aislamiento</span>
+                        <h3>Rollo de Neopreno</h3>
+                        <p>Banda o junta de hule neopreno para sellado, aislamiento o soporte.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Rollo%20de%20Neopreno." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="herramientas">
+                    <div class="producto-imagen"><img src="img/cincho-plastico.png" alt="Cincho plastico" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Fijación</span>
+                        <h3>Cincho Plástico (Tairrap)</h3>
+                        <p>Bolsa de abrazaderas de nylon para organizar cables y atar rápidamente.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cinchos." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+
+                <!-- ==========================================
+                     PINTURA Y ACABADOS (21 productos)
+                     ========================================== -->
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/super-pulido.png" alt="Super pulido" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Acabados</span>
+                        <h3>Súper Pulido</h3>
+                        <p>Mortero de terminación extrafina para alisar paredes de forma impecable.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Súper%20Pulido." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/pulido.png" alt="Pulido" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Acabados</span>
+                        <h3>Pulido Estándar</h3>
+                        <p>Mezcla para recubrimiento que mejora la apariencia del repello base.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Pulido." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/thinner-acrilico.png" alt="Thinner acrilico" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Solventes</span>
+                        <h3>Thinner Acrílico</h3>
+                        <p>Diluyente de alta calidad para pinturas, esmaltes y limpiar brochas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Thinner%20Acrílico." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/maneral-rodillo.png" alt="Maneral rodillo" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Accesorios Pintura</span>
+                        <h3>Maneral para Rodillo</h3>
+                        <p>Soporte resistente donde se acopla la felpa para pintar grandes áreas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Maneral%20de%20Rodillo." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/mini-rodillo.png" alt="Mini rodillo" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Accesorios Pintura</span>
+                        <h3>Mini Rodillo</h3>
+                        <p>Rodillo de esponja o felpa pequeño, perfecto para rejas o recortes.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Mini%20Rodillo." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/espuma-expansiva.png" alt="Espuma expansiva" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Selladores</span>
+                        <h3>Espuma Expansiva</h3>
+                        <p>Poliuretano en aerosol para sellar, rellenar huecos y aislar huecos de techos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Espuma%20Expansiva." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/esponjas.png" alt="Esponjas" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Acabados</span>
+                        <h3>Esponjas para Albañil</h3>
+                        <p>Esponjas densas, útiles para lavar sisas de azulejo y dar texturas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Esponjas." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/maderol.png" alt="Maderol" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Cuidado de Madera</span>
+                        <h3>Maderol</h3>
+                        <p>Preservante y veneno que protege la madera de polillas e insectos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Maderol." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/resistol-cola-blanca.png" alt="Resistol cola blanca" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Pegamentos</span>
+                        <h3>Cola Blanca</h3>
+                        <p>Pegamento Resistol de alto desempeño, el favorito para carpintería.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cola%20Blanca." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/aceite-multiusos.png" alt="Aceite Multiusos" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Mantenimiento</span>
+                        <h3>Aceite Multiusos</h3>
+                        <p>Lubricante de calidad que limpia y protege del óxido.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Aceite%20de%20Motor." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/pistola-pintar-inalambrica.png" alt="Pistola inalambrica" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Equipos de Pintura</span>
+                        <h3>Pistola para Pintar</h3>
+                        <p>Pulverizador inalámbrico para pintar paredes rápido y sin rodillo.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Pistola%20de%20Pintar." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/sellador-silicona.png" alt="Sellador silicona" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Selladores</span>
+                        <h3>Sellador de Silicona</h3>
+                        <p>Silicón en tubo para evitar filtraciones de agua en baños y ventanas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Silicona." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+        
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/espatula.png" alt="Espatula" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Accesorios Pintura</span>
+                        <h3>Espátula Mango Goma</h3>
+                        <p>Lámina metálica flexible para aplicar yeso, pasta o retirar pintura vieja.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Espátula." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/pasta-tablaroca.png" alt="Pasta tablaroca" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Acabados</span>
+                        <h3>Pasta para Tablaroca</h3>
+                        <p>Masilla premezclada ideal para cubrir juntas de yeso y tapar clavos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Pasta%20para%20Tablaroca." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/spray-color.png" alt="Spray color" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Pintura Aerosol</span>
+                        <h3>Pintura en Spray</h3>
+                        <p>Botes de pintura acrílica en aerosol en diversos colores vibrantes.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Pintura%20en%20Spray." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/pintura-alquidico.png" alt="Pintura alquidico" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Pintura Doméstica</span>
+                        <h3>Pintura Alquídica</h3>
+                        <p>Esmalte protector de secado rápido, perfecto para metales y madera.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Pintura%20Alquídica." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/pintura-aceite.png" alt="Pintura aceite" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Pintura Doméstica</span>
+                        <h3>Pintura de Aceite</h3>
+                        <p>Pintura de alto brillo y resistencia, 100% lavable para interiores o exteriores.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Pintura%20de%20Aceite." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/protecto-metaltec.png" alt="Protecto Metaltec" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Anticorrosivos</span>
+                        <h3>Protecto Metaltec</h3>
+                        <p>Pintura anticorrosiva de primera calidad para proteger verjas y portones de óxido.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Metaltec." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/pulverizador.png" alt="pulverizador" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Limpieza</span>
+                        <h3>Pulverizador</h3>
+                        <p>Bote plástico con pistola rociadora, útil para humedecer o aplicar químicos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Atomizador." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="pintura">
+                    <div class="producto-imagen"><img src="img/extensión-aluminio-rodillo.png" alt="Extension rodillo" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Accesorios Pintura</span>
+                        <h3>Extensión para Rodillo</h3>
+                        <p>Palo de extensión de aluminio para lograr pintar techos sin usar escalera.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Extensión%20de%20Rodillo." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+
+                <!-- ==========================================
+                     PLOMERÍA (18 productos)
+                     ========================================== -->
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/tubo-pvc.png" alt="Tubo PVC" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Tuberías</span>
+                        <h3>Tubo PVC</h3>
+                        <p>Tuberías lisas de presión para conducción de agua potable en el hogar.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Tubo%20PVC." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/inodoro.png" alt="Inodoro" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Baños</span>
+                        <h3>Inodoro Completo</h3>
+                        <p>Sanitario blanco de taza y tanque, incluye sus accesorios de drenaje.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Inodoro." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/llave-plastica.png" alt="Llave de plastico" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Grifería</span>
+                        <h3>Llave Plástica</h3>
+                        <p>Grifo o llave de chorro de plástico, no se oxida y soporta buena presión.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Llave%20Plástica." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/cespol-flexible.png" alt="Céspol" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Accesorios Baño</span>
+                        <h3>Céspol Flexible</h3>
+                        <p>Sifón tipo acordeón blanco para el desagüe del lavamanos o fregadero.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Céspol." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/llave-stilson.png" alt="Llave stilson" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Llave Stilson</h3>
+                        <p>La herramienta reina de la plomería para aflojar tubos y tuercas trabadas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Llave%20Stilson." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/parrilla-lavadora.png" alt="Parrilla lavadora" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Desagües</span>
+                        <h3>Parrilla (Rejilla)</h3>
+                        <p>Colador o rejilla de piso para desagües, que evita atascos de basura.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Rejilla%20de%20Piso." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/rollo-manguera-polietileno.png" alt="Manguera polietileno" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Tuberías y Riego</span>
+                        <h3>Manguera Polietileno</h3>
+                        <p>Manguera negra industrial de larga duración para sistemas de riego.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Manguera%20Polietileno." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/embudo-plastico.png" alt="Embudo plastico" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Accesorios Varios</span>
+                        <h3>Embudo Plástico</h3>
+                        <p>Embudo sencillo y práctico para verter líquidos sin derramar una gota.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Embudo." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/valvula-pvc.png" alt="Valvula pvc" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Conexiones</span>
+                        <h3>Válvula PVC (Pase)</h3>
+                        <p>Válvula de bola para abrir o cerrar rápidamente el paso de agua potable.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Válvula%20PVC." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/valvula-mariposa.png" alt="Valvula mariposa" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Conexiones Metal</span>
+                        <h3>Válvula Mariposa</h3>
+                        <p>Válvula de pase de bronce, mucho más resistente a la presión del agua.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Válvula%20Mariposa." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/pegamento-pvc.png" alt="Pegamento PVC" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Pegamentos</span>
+                        <h3>Pegamento PVC</h3>
+                        <p>Cemento solvente (tubo de pegamento) para soldar empalmes plásticos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Pegamento%20PVC." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/manguera.png" alt="Manguera de jardin" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Mangueras</span>
+                        <h3>Manguera Verde</h3>
+                        <p>Manguera reforzada para conectar al grifo del patio o limpiar terrazas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Manguera." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/tee-pvc.png" alt="Tee PVC" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Conexiones PVC</span>
+                        <h3>Tee de PVC</h3>
+                        <p>Empalme plástico en forma de T para dividir una línea de agua en dos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Tee%20PVC." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/codo-PVC-90.png" alt="Codo PVC" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Conexiones PVC</span>
+                        <h3>Codo PVC 90°</h3>
+                        <p>Pieza indispensable para lograr dobleces y esquinas en las tuberías.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Codo%20PVC." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/mini-bomba.png" alt="Mini bomba de agua" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Bombeo</span>
+                        <h3>Mini Bomba de Agua</h3>
+                        <p>Bomba periférica para jalar o impulsar agua desde la cisterna al tanque.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Bomba%20de%20Agua." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/llave-francesa.png" alt="Llave francesa" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Herramientas</span>
+                        <h3>Llave Francesa</h3>
+                        <p>Llave ajustable de mandíbulas planas para no dañar piezas cromadas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Llave%20Francesa." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/regadera-ducha-conbrazo.png" alt="Regadera" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Grifería de Baño</span>
+                        <h3>Regadera con Brazo</h3>
+                        <p>Cabeza de ducha o roseta de baño, incluye su brazo para fijar a la pared.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Regadera." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="plomeria">
+                    <div class="producto-imagen"><img src="img/llave-cromada.png" alt="Llave cromada" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Grifería de Baño</span>
+                        <h3>Llave Cromada</h3>
+                        <p>Grifo brillante y elegante, resistente al óxido, ideal para el lavamanos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Llave%20Cromada." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+
+                <!-- ==========================================
+                     ELECTRICIDAD (17 productos)
+                     ========================================== -->
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/cuchilla-trisfasica-png.png" alt="Cuchilla trifasica" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Tableros</span>
+                        <h3>Cuchilla Trifásica</h3>
+                        <p>Interruptor industrial para controlar sistemas eléctricos de alta carga.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cuchilla%20Trifásica." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/foco-ahorrador.png" alt="Foco ahorrador" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Iluminación</span>
+                        <h3>Foco Ahorrador</h3>
+                        <p>Lámpara o bombillo tipo LED de luz blanca para reducir el consumo eléctrico.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Foco." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/centro-carga.png" alt="Centro de carga" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Tableros</span>
+                        <h3>Centro de Carga</h3>
+                        <p>Caja de distribución para breakers, protege y ordena los circuitos de casa.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Centro%20de%20Carga." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/cable electrico-cobre.png" alt="Cable electrico" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Cableado</span>
+                        <h3>Cable Eléctrico THHN</h3>
+                        <p>Alambre de cobre con forro de colores para instalaciones en tuberías.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cable%20Eléctrico." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/tapa-ciega-condulet.png" alt="Tapa ciega condulet" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Placas y Tapas</span>
+                        <h3>Tapa Ciega Condulet</h3>
+                        <p>Tapadera metálica lisa para clausurar o tapar cajas chalupas sin uso.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Tapa%20Ciega." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/roseta-plástica.png" alt="Roseta" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Iluminación</span>
+                        <h3>Roseta Plástica</h3>
+                        <p>Plafón o porta foco para atornillar fácilmente las bombillas al techo.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Roseta." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/socket-medidor-electrico.png" alt="Socket medidor" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Entrada Eléctrica</span>
+                        <h3>Socket de Medidor</h3>
+                        <p>Base redonda donde la compañía eléctrica conecta el reloj medidor.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Socket." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/gabinete-electrico.png" alt="Gabinete electrico" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Tableros</span>
+                        <h3>Gabinete Eléctrico</h3>
+                        <p>Caja esmaltada grande para proteger y aislar conexiones importantes.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Gabinete." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/toma-corriente.png" alt="Tomacorriente" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Placas e Interruptores</span>
+                        <h3>Tomacorriente Clásico</h3>
+                        <p>Enchufe o receptáculo doble en color blanco, muy económico y práctico.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Tomacorriente." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/toma-corrriente-decorativo.png" alt="Tomacorriente decorativo" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Placas Decorativas</span>
+                        <h3>Tomacorriente Decorativo</h3>
+                        <p>Línea de enchufe moderno y estética más estilizada para interiores.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Tomacorriente." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/caja-eléctrica-metal.png" alt="Caja metalica chalupa" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Tubería Eléctrica</span>
+                        <h3>Caja Chalupa Metal</h3>
+                        <p>Caja rectangular empotrable de metal galvanizado para atornillar placas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Caja%20Chalupa." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/base-medidor.png" alt="Base de medidor" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Entrada Eléctrica</span>
+                        <h3>Base para Medidor</h3>
+                        <p>Caja pedestal cuadrada instalada en la pared principal de la casa.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Base%20de%20Medidor." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/placa-corriente.png" alt="Placa pared" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Placas</span>
+                        <h3>Placa Sencilla</h3>
+                        <p>Tapadera decorativa plástica para ocultar la chalupa en la pared.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Placa." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/breaker.png" alt="Breaker" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Protección Eléctrica</span>
+                        <h3>Breaker (Interruptor)</h3>
+                        <p>Pastilla o interruptor termo magnético para evitar sobrecargas eléctricas.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Breaker." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/cinta-aislante.png" alt="Cinta aislante" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Aislantes</span>
+                        <h3>Cinta Aislante</h3>
+                        <p>Rollo de tape negro flexible para forrar empalmes de manera segura.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Cinta%20Aislante." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/interruptor-sencillo.png" alt="Interruptor sencillo" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Placas e Interruptores</span>
+                        <h3>Interruptor Sencillo</h3>
+                        <p>Apagador de luz o "switch" de pared, color blanco, fácil de instalar.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Interruptor." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+                <article class="tarjeta producto-item" data-categoria="electricidad">
+                    <div class="producto-imagen"><img src="img/extension-electrica.png" alt="Extension electrica" loading="lazy"></div>
+                    <div class="tarjeta-contenido">
+                        <span class="categoria-badge">Accesorios</span>
+                        <h3>Extensión Eléctrica</h3>
+                        <p>Cable naranja o amarillo extenso y forrado para alcanzar tomas lejanos.</p>
+                        <a href="https://wa.me/50495835033?text=Hola,%20me%20interesa%20consultar%20por%20Extensión." target="_blank" class="btn btn-primario">Consultar WhatsApp</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <a href="https://wa.me/50495835033?text=Hola,%20deseo%20hacer%20un%20pedido%20de%20productos." target="_blank" rel="noopener noreferrer" class="whatsapp-flotante" aria-label="Contactar por WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
+    </a>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Ferretería 2 Hermanos</h4>
+                <p>Todo lo que necesitas para reparar y construir.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>📍 Barrio El Mercado, Langue, Valle</p>
+                <p>📱 WhatsApp: <a href="https://wa.me/50495835033">9583-5033</a></p>
+                <p>✉️ ferreteria2hermanos@gmail.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="redes-sociales">
+                    <a href="https://facebook.com/pagina-oficial" target="_blank" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                    <a href="https://instagram.com/pagina-oficial" target="_blank" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="anio-actual">2024</span> Ferretería 2 Hermanos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

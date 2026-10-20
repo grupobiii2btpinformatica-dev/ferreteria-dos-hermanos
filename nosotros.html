@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros | Ferretería 2 Hermanos</title>
+    <meta name="description" content="Conoce la historia, misión y visión de Ferretería 2 Hermanos, tu aliado de confianza en Langue, Valle.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Ferretería 2 Hermanos</a>
+            <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
+            <nav class="nav-links" aria-label="Navegación principal">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html" aria-current="page" class="active">Nosotros</a>
+                <a href="productos.html">Productos</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contáctanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido-principal">
+        <section class="container fade-in">
+            <h1 style="text-align: center; margin-bottom: 2rem; font-size: 2.5rem;">Sobre Nosotros</h1>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 3rem; margin-bottom: 4rem;">
+                <div style="flex: 1; min-width: 300px;">
+                    <h2>Nuestra Historia</h2>
+                    <p style="margin-top: 1rem;">La Ferretería “2 Hermanos” comenzó como un pequeño emprendimiento familiar enfocado en abastecer de materiales de construcción y herramientas básicas a la comunidad de Langue, Valle.</p>
+                    <p style="margin-top: 1rem;">Hoy en día, gracias a la confianza de nuestros clientes, nos consolidamos ofreciendo atención personalizada y un catálogo variado que cubre las necesidades de constructores, albañiles, propietarios de viviendas y el público en general. Llevamos 2 años trabajando con esfuerzo y dedicación.</p>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="img/propietario.png" alt="Propietario de la ferretería atendiendo" loading="lazy" style="border-radius: var(--radio-borde); box-shadow: var(--sombra);">
+                </div>
+            </div>
+
+            <div class="grid-tarjetas" style="margin-bottom: 4rem;">
+                <article class="tarjeta seccion-alterna">
+                    <div class="tarjeta-contenido">
+                        <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Nuestra Misión</h3>
+                        <p>Brindar productos y soluciones de ferretería de excelente calidad, ofreciendo una atención responsable, eficiente y personalizada para satisfacer las necesidades de nuestros clientes.</p>
+                    </div>
+                </article>
+                <article class="tarjeta seccion-alterna">
+                    <div class="tarjeta-contenido">
+                        <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Nuestra Visión</h3>
+                        <p>Ser una ferretería reconocida por su calidad, variedad de productos, precios accesibles y justos, excelente servicio al cliente, logrando consolidarnos como una ferretería confiable.</p>
+                    </div>
+                </article>
+            </div>
+
+
+        </section>
+
+        <section class="seccion-alterna">
+            <div class="container fade-in">
+                <h2 style="text-align: center; margin-bottom: 2rem;">Conoce Nuestras Instalaciones</h2>
+                <div class="galeria-grid">
+                    <div class="galeria-item" tabindex="0" role="button" aria-label="Ampliar imagen 1"><img src="img/galeria-1.png" alt="Pasillo de herramientas" loading="lazy"></div>
+                    <div class="galeria-item" tabindex="0" role="button" aria-label="Ampliar imagen 2"><img src="img/galeria-2.png" alt="Sección de pinturas" loading="lazy"></div>
+                    <div class="galeria-item" tabindex="0" role="button" aria-label="Ampliar imagen 3"><img src="img/galeria-3.png" alt="Materiales de construcción" loading="lazy"></div>
+                    <div class="galeria-item" tabindex="0" role="button" aria-label="Ampliar imagen 4"><img src="img/galeria-4.png" alt="Mostrador principal" loading="lazy"></div>
+                    <div class="galeria-item" tabindex="0" role="button" aria-label="Ampliar imagen 5"><img src="img/galeria-5.png" alt="Área de plomería" loading="lazy"></div>
+                    <div class="galeria-item" tabindex="0" role="button" aria-label="Ampliar imagen 6"><img src="img/galeria-6.png" alt="Exhibición eléctrica" loading="lazy"></div>
+                </div>
+            </div>
+        </section>
+
+        <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Visor de imágenes">
+            <button class="lightbox-btn lightbox-cerrar" aria-label="Cerrar imagen">&times;</button>
+            <button class="lightbox-btn lightbox-prev" aria-label="Imagen anterior">&#10094;</button>
+            <img class="lightbox-img" src="" alt="">
+            <button class="lightbox-btn lightbox-next" aria-label="Imagen siguiente">&#10095;</button>
+        </div>
+    </main>
+
+    <a href="https://wa.me/50495835033?text=Hola,%20tengo%20una%20consulta." target="_blank" rel="noopener noreferrer" class="whatsapp-flotante" aria-label="Contactar por WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
+    </a>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Ferretería 2 Hermanos</h4>
+                <p>Todo lo que necesitas para reparar y construir.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>📍 Barrio El Mercado, Langue, Valle</p>
+                <p>📱 WhatsApp: <a href="https://wa.me/50495835033">9583-5033</a></p>
+                <p>✉️ ferreteria2hermanos@gmail.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="redes-sociales">
+                    <a href="https://facebook.com/pagina-oficial" target="_blank" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                    <a href="https://instagram.com/pagina-oficial" target="_blank" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>&copy; <span id="anio-actual">2024</span> Ferretería 2 Hermanos. Todos los derechos reservados.</p></div>
+    </footer>
+</body>
+</html>
